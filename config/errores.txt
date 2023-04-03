@@ -1,0 +1,9 @@
+A todos los que les da PROBLEMA, Si se te crea el archivo vació. HACER lo siguiente:
+1- Primero debes de asignarle una contraseña al usuario Root. Link recuperado de: https://www.mclibre.org/consultar/webapps/lecciones/phpmyadmin-1-soluciones.html
+
+2- Luego debes de editar las variables de entorno, para eso debes mirar el video - capitulo 2 de este curso. Link recuperado de: https://www.youtube.com/watch?v=UsMLwGEycbo&list=PL-Mlm_HYjCo-T8_c4cq_Turulaizs4tgj&index=3&ab_channel=C%C3%B3digosdeProgramaci%C3%B3n-MR
+
+3- Por ultimo, si todavía te sigue dando problema, es muy probable que el archivo mysqldump.exe este dañado, compruébalo buscando el archivo, si el tamaño es de 0 KB, es que no contiene nada por lo tanto no sirve. 
+Nota: Casi siempre el archivo se encuentra en la carpeta bin, todo depende si usas WampServer,  XAMPP,  AppServ o Laragon.
+
+4- Para solucionar esto descarga el archivo mysqldump.exe nuevamente desde el siguiente sitio web. Link recuperado de: https://www.exefiles.com/en/exe/mysqldump-exe/s
