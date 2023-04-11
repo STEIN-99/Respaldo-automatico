@@ -16,6 +16,29 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
+-- Table structure for table `respaldo`
+--
+
+DROP TABLE IF EXISTS `respaldo`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `respaldo` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(150) NOT NULL,
+  `fecha` varchar(150) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `respaldo`
+--
+
+LOCK TABLES `respaldo` WRITE;
+/*!40000 ALTER TABLE `respaldo` DISABLE KEYS */;
+/*!40000 ALTER TABLE `respaldo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
 -- Table structure for table `users`
 --
 
@@ -50,4 +73,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-04-02 20:56:07
+-- Dump completed on 2023-04-10 22:02:29

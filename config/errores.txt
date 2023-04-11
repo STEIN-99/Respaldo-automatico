@@ -6,4 +6,4 @@ A todos los que les da PROBLEMA, Si se te crea el archivo vació. HACER lo sigui
 3- Por ultimo, si todavía te sigue dando problema, es muy probable que el archivo mysqldump.exe este dañado, compruébalo buscando el archivo, si el tamaño es de 0 KB, es que no contiene nada por lo tanto no sirve. 
 Nota: Casi siempre el archivo se encuentra en la carpeta bin, todo depende si usas WampServer,  XAMPP,  AppServ o Laragon.
 
-4- Para solucionar esto descarga el archivo mysqldump.exe nuevamente desde el siguiente sitio web. Link recuperado de: https://www.exefiles.com/en/exe/mysqldump-exe/s
+4- Para solucionar esto descarga el archivo mysqldump.exe nuevamente desde el siguiente sitio web. Link recuperado de: https://www.exefiles.com/en/exe/mysqldump-exe/

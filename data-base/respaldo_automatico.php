@@ -13,9 +13,12 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Error al conectar con la base de datos: " . $conn->connect_error);
 }
-$fecha = date("g:i a");
 
-$ruta = "Respaldo_" . $dbname . "_" . date("d-m-Y-g-i");
+$fecha = date("d-m-Y");
+$hora = date("H");
+$minuto = date("i");
+
+$ruta = "Respaldo_" . $dbname . "_" . $fecha . "_h" .$hora . "_m" .$minuto;
 
 // Nombre del archivo de backup
 $backup_file = ''.$ruta.'/' . $ruta . '.sql';
